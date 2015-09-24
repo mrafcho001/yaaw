@@ -210,6 +210,7 @@ var YAAW = (function() {
         YAAW.tasks.info_close();
         $("#main-alert").hide();
         ARIA2.refresh();
+        ARIA2.global_stat();
         return false;
       });
 
